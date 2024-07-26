@@ -5,7 +5,6 @@ from xlutils.copy import copy
 import os
 current_user = input("Введите ФИО:")
 root_path = os.path.abspath(os.path.dirname(__file__))
-print(root_path)
 root_path = 'D:/Practica'
 
 for root, dirs, files in os.walk(root_path):
